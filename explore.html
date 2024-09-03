@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Our Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #ff6347;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav h1 {
+            color: white;
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .food-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .food-item {
+            flex: 1 0 21%; /* Adjusted to show 4 items per row */
+            max-width: 23%; /* Keeps items from being too wide */
+            margin: 10px;
+            text-align: center;
+            background-color: #f8f8f8;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .food-item img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .food-item h3 {
+            color: #555;
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .food-item button {
+            background-color: #ff6347;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .food-item button:hover {
+            background-color: #e55337;
+        }
+        @media (max-width: 1024px) {
+            .food-item {
+                flex: 1 0 30%; /* Three items per row on medium screens */
+                max-width: 31%;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .food-item {
+                flex: 1 0 45%; /* Two items per row on small screens */
+                max-width: 46%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .food-item {
+                flex: 1 0 100%; /* One item per row on extra small screens */
+                max-width: 100%;
+            }
+
+            nav h1 {
+                font-size: 20px;
+            }
+
+            .container {
+                padding: 10px;
+            }
+
+            .food-item h3 {
+                font-size: 16px;
+            }
+
+            .food-item button {
+                padding: 8px 12px;
+            }
+        }
+
+       
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>Explore Our Menu</h1>
+    </nav>
+
+    <div class="container">
+        <h2>Delicious Food Items</h2>
+
+        <div class="food-grid">
+            <!-- Food Item 1 -->
+            <div class="food-item">
+                <img src="explore f1.avif" alt="Food 1">
+                <h3>Grilled Chicken</h3>
+                <a href="order.html"><button>Order Now</button></a>
+            </div>
+
+            <!-- Food Item 2 -->
+            <div class="food-item">
+                <img src="ex f2.avif" alt="Food 2">
+                <h3>Vegetarian Pizza</h3>
+                <a href="order.html"><button>Order Now</button></a>
+            </div>
+
+            <!-- Food Item 3 -->
+            <div class="food-item">
+                <img src="ex f3.avif" alt="Food 3">
+                <h3>Pasta Carbonara</h3>
+                <a href="order.html"><button>Order Now</button></a>
+            </div>
+
+            <!-- Food Item 4 -->
+            <div class="food-item">
+                <img src="ex f4.avif" alt="Food 4">
+                <h3>Sushi Platter</h3>
+                <a href="order.html"><button>Order Now</button></a>
+            </div>
+
+            <!-- Food Item 5 -->
+            <div class="food-item">
+                <img src="ex f5.avif" alt="Food 5">
+                <h3>Cheeseburger</h3>
+                <a href="order.html"><button>Order Now</button></a>
+            </div>
+
+            <!-- Food Item 6 -->
+            <div class="food-item">
+                <img src="ex f6.avif" alt="Food 6">
+                <h3>Caesar Salad</h3>
+                <a href="order.html"><button>Order Now</button></a>
+            </div>
+
+            <!-- Food Item 7 -->
+            <div class="food-item">
+                <img src="ex f7.avif" alt="Food 7">
+                <h3>Spicy Ramen</h3>
+                <a href="order.html"><button>Order Now</button></a>
+            </div>
+
+            <!-- Food Item 8 -->
+            <div class="food-item">
+                <img src="ex tacos.avif" alt="Food 8">
+                <h3>Tacos</h3>
+                <a href="order.html"><button>Order Now</button></a>
+            </div>
+
+            <!-- Food Item 9 -->
+            <div class="food-item">
+                <img src="ex f9.avif" alt="Food 9">
+                <h3>Steak</h3>
+                <a href="order.html"><button>Order Now</button></a>
+            </div>
+
+            <!-- Food Item 10 -->
+            <div class="food-item">
+                <img src="ex cake.avif" alt="Food 10">
+                <h3>Chocolate Cake</h3>
+                <a href="order.html"><button>Order Now</button></a>
+                
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
